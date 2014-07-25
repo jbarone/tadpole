@@ -1,0 +1,6 @@
+Installation of TADpole requires libtsk3 and autotools
+
+  $ ./autogen.sh
+  $ ./configure
+  $ make
+  $ make install

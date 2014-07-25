@@ -1,0 +1,36 @@
+ ______ ______  ____                   ___             
+/\__  _\\  _  \/\  _`\                /\_ \            
+\/_/\ \/ \ \L\ \ \ \/\ \  _____    ___\//\ \      __   
+   \ \ \\ \  __ \ \ \ \ \/\ '__`\ / __`\\ \ \   /'__`\ 
+    \ \ \\ \ \/\ \ \ \_\ \ \ \L\ \\ \L\ \\_\ \_/\  __/ 
+     \ \_\\ \_\ \_\ \____/\ \ ,__/ \____//\____\ \____\
+      \/_/ \/_/\/_/\/___/  \ \ \/ \/___/ \/____/\/____/
+                            \ \_\                      
+                             \/_/
+
+Welcome to the Timeline Anomaly Detection tool (TADpole) project!
+
+TADpole was developed as part of research for Automated Timeline
+Anomaly Detection. The tool is intended to be used when triaging a
+suspected system. TADpole will work with a forensic disk image and
+look for event logs, which it will use to determine if the system
+clock has been tampered with.
+
+USAGE
+--------------------
+
+usage: tadpole [options] image [image]
+
+    OPTIONS:
+        -i imgtype: The format of the image file
+           (use '-i list' for supported types)
+        -f: Scan files in image for anomalies in MAC time
+        -x: Output in XML format
+        -v: verbose output to stderr
+
+
+Why TADpole?
+--------------------
+
+the TAD in TADpole stands for Timeline Anomaly Detection. The rest
+was chosen cause it just fit so well.

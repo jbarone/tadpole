@@ -1,0 +1,37 @@
+#The actual Makefiles produced
+Makefile
+Makefile.in
+
+#The local aclocal.m4 file
+aclocal.m4
+autom4te.cache/
+
+#The output of the configure script
+config.guess
+config.log
+config.status
+config.sub
+config.h.in
+config.h
+stamp-h1
+src/.deps/
+
+#The configure script itself
+configure
+
+#Various scripts use for libtool and the like
+install-sh
+missing
+depcomp
+
+#compiled sources
+*.o
+src/tadpole
+
+#packages
+*.gz
+*.tar
+
+#various files
+*.dd
+*.swp
